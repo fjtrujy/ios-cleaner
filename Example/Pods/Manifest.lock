@@ -1,0 +1,16 @@
+PODS:
+  - Cleaner (0.1.0)
+
+DEPENDENCIES:
+  - Cleaner (from `../`)
+
+EXTERNAL SOURCES:
+  Cleaner:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Cleaner: c6fabba96ad1e576183a216e6d765361edb51365
+
+PODFILE CHECKSUM: b3b90e8b83c05b553fdc1bce033d2262c64e6e70
+
+COCOAPODS: 1.5.3

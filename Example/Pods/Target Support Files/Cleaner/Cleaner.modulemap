@@ -1,0 +1,6 @@
+framework module Cleaner {
+  umbrella header "Cleaner-umbrella.h"
+
+  export *
+  module * { export * }
+}
