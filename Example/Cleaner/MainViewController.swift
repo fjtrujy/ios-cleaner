@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Cleaner
 
 class MainViewController: UIViewController {
 
@@ -14,22 +15,17 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        saveValuesUserDefault()
+        
+        //Remove everything
+        let cleaner = Cleaner()
+        cleaner.cleanEverything()
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func saveValuesUserDefault()  {
+        UserDefaults.standard.set("Chiquito Ipsum", forKey: "Fistrum")
+        UserDefaults.standard.synchronize()
     }
-    */
 
 }
