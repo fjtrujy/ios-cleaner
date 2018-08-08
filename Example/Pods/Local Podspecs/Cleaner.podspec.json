@@ -1,9 +1,9 @@
 {
   "name": "Cleaner",
   "version": "0.1.0",
-  "summary": "A short description of Cleaner.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Francisco Javier Trujillo Mata/Cleaner",
+  "summary": "This library is useful to clean the directories where the app save content",
+  "description": "The main reason why this project was created, was for simulate the feature that Android devices use to have for cleaning the User Data & Cache. Doind this you can save space in your device and also leave the app as it was when the user install for the very first time (like an uninstall&install)",
+  "homepage": "https://github.com/fjtrujy/ios-cleaner",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,12 @@
     "Francisco Javier Trujillo Mata": "fjtrujy@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Francisco Javier Trujillo Mata/Cleaner.git",
+    "git": "https://github.com/fjtrujy/ios-cleaner.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/fjtrujy",
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "Cleaner/Classes/**/*"
+  "source_files": "Cleaner/*"
 }
