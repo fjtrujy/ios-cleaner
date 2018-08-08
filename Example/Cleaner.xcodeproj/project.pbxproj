@@ -12,6 +12,8 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* CleanerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* CleanerTests.swift */; };
 		A78942062E7B707CE91CA937 /* Pods_Cleaner_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 740F413E91DF11CC1A2B98C4 /* Pods_Cleaner_Tests.framework */; };
+		B51857F6211CD58400DFED56 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B51857F5211CD58400DFED56 /* Media.xcassets */; };
+		B51857F7211CD74900DFED56 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B51857F5211CD58400DFED56 /* Media.xcassets */; };
 		B5397FE22114FE6B00C00263 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5397FE02114FE6B00C00263 /* MainViewController.swift */; };
 		B5397FE32114FE6B00C00263 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5397FE12114FE6B00C00263 /* MainViewController.xib */; };
 		C41DE87902307262228EF4CC /* Pods_Cleaner_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B97303F3CBB6AD891B5E55C9 /* Pods_Cleaner_Example.framework */; };
@@ -42,6 +44,7 @@
 		607FACEB1AFB9204008FA782 /* CleanerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanerTests.swift; sourceTree = "<group>"; };
 		740F413E91DF11CC1A2B98C4 /* Pods_Cleaner_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cleaner_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		785F2F332AFCA360AEA90E7B /* Pods-Cleaner_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cleaner_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cleaner_Tests/Pods-Cleaner_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B51857F5211CD58400DFED56 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		B5397FE02114FE6B00C00263 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B5397FE12114FE6B00C00263 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		B738C23EBDC7CD34DEE9A0B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -115,6 +118,7 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				B51857F5211CD58400DFED56 /* Media.xcassets */,
 				607FACEB1AFB9204008FA782 /* CleanerTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
@@ -212,11 +216,11 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1000;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1000;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -247,6 +251,7 @@
 			files = (
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				B5397FE32114FE6B00C00263 /* MainViewController.xib in Resources */,
+				B51857F7211CD74900DFED56 /* Media.xcassets in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,6 +260,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B51857F6211CD58400DFED56 /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,8 +476,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -485,8 +490,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -506,8 +510,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cleaner_Example.app/Cleaner_Example";
 			};
 			name = Debug;
@@ -524,8 +527,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cleaner_Example.app/Cleaner_Example";
 			};
 			name = Release;
