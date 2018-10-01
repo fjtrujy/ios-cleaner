@@ -31,7 +31,7 @@
 
 /* Begin PBXFileReference section */
 		3C7A0C68C53F5A3FCFF6E85C /* Pods-Cleaner_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cleaner_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cleaner_Example/Pods-Cleaner_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4AE3849F41C615D72C8260DF /* Cleaner.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Cleaner.podspec; path = ../Cleaner.podspec; sourceTree = "<group>"; };
+		4AE3849F41C615D72C8260DF /* Cleaner.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Cleaner.podspec; path = ../Cleaner.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4DC85A806A9D774432E7BFC2 /* Pods-Cleaner_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cleaner_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cleaner_Tests/Pods-Cleaner_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4F17F494408EDDB040780891 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Cleaner_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cleaner_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };

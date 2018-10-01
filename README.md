@@ -20,6 +20,25 @@ it, simply add the following line to your Podfile:
 pod 'Cleaner'
 ```
 
+## How to use it
+
+There are just 4 different methods to clean.
+
+To Clean the User Defaullt Directory
+```swift
+cleanUserDefault()
+```
+
+To Clean the Document Directory
+```swift
+cleanDocumentDirectory()
+```
+
+To Clean the Cache Directory
+```swift
+cleanCacheDirectory()
+```
+
 ## Author
 
 Francisco Javier Trujillo Mata, fjtrujy@gmail.com
