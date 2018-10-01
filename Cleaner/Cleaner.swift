@@ -35,7 +35,7 @@ open class Cleaner: NSObject {
             let folderPathURL = URL.init(string: folderPath)
             let filesInDir = try? FileManager.default.contentsOfDirectory(at: folderPathURL!, includingPropertiesForKeys: nil, options: [])
             
-            for case let file as URL in filesInDir!  {
+            for case let file in filesInDir!  {
                 try? FileManager.default.removeItem(at: file)
             }
         }
