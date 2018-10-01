@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/fjtrujy'
 
   s.ios.deployment_target = '8.0'
+  s.swift_version = '4.2'
 
   s.source_files = 'Cleaner/*'
   
