@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'Cleaner'
-  s.version = '0.1.0'
+  s.version = '0.1.1'
   s.summary = 'This library is useful to clean the directories where the app save content'
   s.description = 'The main reason why this project was created, was for simulate the feature that Android devices use to have for cleaning the User Data & Cache. Doind this you can save space in your device and also leave the app as it was when the user install for the very first time (like an uninstall&install)'
 

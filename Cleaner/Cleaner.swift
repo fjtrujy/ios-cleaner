@@ -7,22 +7,22 @@
 
 import UIKit
 
-open class Cleaner: NSObject {
-    open func cleanEverything() {
+@objc open class Cleaner: NSObject {
+    @objc open func cleanEverything() {
         self.cleanDocumentDirectory()
         self.cleanCacheDirectory()
         self.cleanUserDefault()
     }
     
-    open func cleanDocumentDirectory() {
+    @objc open func cleanDocumentDirectory() {
         cleanDirectory(.documentDirectory)
     }
     
-    open func cleanCacheDirectory() {
+    @objc open func cleanCacheDirectory() {
         cleanDirectory(.cachesDirectory)
     }
     
-    open func cleanUserDefault() {
+    @objc open func cleanUserDefault() {
         if let bundleID = Bundle.main.bundleIdentifier {
             UserDefaults.standard.removePersistentDomain(forName: bundleID)
         }

@@ -1,5 +1,5 @@
 PODS:
-  - Cleaner (0.1.0)
+  - Cleaner (0.1.1)
 
 DEPENDENCIES:
   - Cleaner (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Cleaner: fed25fa1d63fabb7e896765efea4f0aa483df894
+  Cleaner: 73bc5bb40edc8bc00f1a37e5059befaeed7591d9
 
 PODFILE CHECKSUM: 7e9e157b0776cfac5c59d91950798011e2d24ac8
 
