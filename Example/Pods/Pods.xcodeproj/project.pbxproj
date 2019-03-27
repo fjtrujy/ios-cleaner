@@ -45,19 +45,19 @@
 		26DC6F6FD1AF056F6994C29CE1BF9F7F /* Cleaner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Cleaner.xcconfig; sourceTree = "<group>"; };
 		37ACED3745A971AFD8E032AF3D563DFB /* Pods-Cleaner_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cleaner_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		445BA379BFCAA11474A4CE81CBE01B30 /* Pods-Cleaner_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Cleaner_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		457BE77B7AF90078056EEC4E1106F040 /* Pods_Cleaner_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Cleaner_Example.framework; path = "Pods-Cleaner_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		616A0513557189BD2A25F6FB46DE389A /* Pods_Cleaner_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Cleaner_Tests.framework; path = "Pods-Cleaner_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		457BE77B7AF90078056EEC4E1106F040 /* Pods_Cleaner_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cleaner_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		616A0513557189BD2A25F6FB46DE389A /* Pods_Cleaner_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cleaner_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62254B8FB3AE564F8A26800836931B7C /* Pods-Cleaner_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Cleaner_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		66CF103C539E5AF7FB58C0F625076CD3 /* Pods-Cleaner_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cleaner_Tests-dummy.m"; sourceTree = "<group>"; };
-		6851991F1BB04D3FE9CB8A0E0AB7FA40 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6851991F1BB04D3FE9CB8A0E0AB7FA40 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		690950DB5328DEF702BEFBA1EA3D58EA /* Pods-Cleaner_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cleaner_Tests-Info.plist"; sourceTree = "<group>"; };
 		7343B04A51314B21D94C6B4846FE44B3 /* Pods-Cleaner_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Cleaner_Tests-umbrella.h"; sourceTree = "<group>"; };
 		86D79F39B91F8EAD58A12B3AD9D7DA08 /* Pods-Cleaner_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Cleaner_Example-dummy.m"; sourceTree = "<group>"; };
-		96F7A232586F0FBDBD8A1E2C2F7A37B7 /* Cleaner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Cleaner.framework; path = Cleaner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96F7A232586F0FBDBD8A1E2C2F7A37B7 /* Cleaner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cleaner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B61DBA731ACD71EC0A15F476BEFE4487 /* Cleaner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Cleaner.modulemap; sourceTree = "<group>"; };
 		BC0F69435A29E59FA79367E343E273CC /* Pods-Cleaner_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cleaner_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C74C268A435D0165C90765A90384CB2C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C74C268A435D0165C90765A90384CB2C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D1B30FB1A186A259157B07A927FBB82E /* Cleaner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Cleaner-dummy.m"; sourceTree = "<group>"; };
 		D4504F9F32A4D33F936BAFC2AA50044F /* Pods-Cleaner_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cleaner_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 		F9CB020BE239922873E61015A0046304 /* Pods-Cleaner_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Cleaner_Example-Info.plist"; sourceTree = "<group>"; };
 		FBB57D1133730A429C893957C5E4F8F4 /* Cleaner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Cleaner-Info.plist"; sourceTree = "<group>"; };
 		FD08F69D56885EF0689294FCF704FF6C /* Pods-Cleaner_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Cleaner_Tests.modulemap"; sourceTree = "<group>"; };
-		FFF47A4812C4CDB2A10717A6D4FE83AD /* Cleaner.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Cleaner.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FFF47A4812C4CDB2A10717A6D4FE83AD /* Cleaner.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Cleaner.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -314,13 +314,14 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1020;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -441,6 +442,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -496,7 +498,7 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
@@ -569,6 +571,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -618,9 +621,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;

@@ -1,9 +1,10 @@
 # Cleaner
 
-[![CI Status](https://img.shields.io/travis/Francisco Javier Trujillo Mata/Cleaner.svg?style=flat)](https://travis-ci.org/Francisco Javier Trujillo Mata/Cleaner)
-[![Version](https://img.shields.io/cocoapods/v/Cleaner.svg?style=flat)](https://cocoapods.org/pods/Cleaner)
-[![License](https://img.shields.io/cocoapods/l/Cleaner.svg?style=flat)](https://cocoapods.org/pods/Cleaner)
-[![Platform](https://img.shields.io/cocoapods/p/Cleaner.svg?style=flat)](https://cocoapods.org/pods/Cleaner)
+[![Build Status](https://travis-ci.org/fjtrujy/ios-cleaner.svg?branch=master)](https://travis-ci.org/fjtrujy/ios-cleaner)
+[![Version](https://img.shields.io/cocoapods/v/Cleaner.svg?style=flat)](http://cocoapods.org/pods/Cleaner)
+[![License](https://img.shields.io/cocoapods/l/Cleaner.svg?style=flat)](http://cocoapods.org/pods/Cleaner)
+[![Platform](https://img.shields.io/cocoapods/p/Cleaner.svg?style=flat)](http://cocoapods.org/pods/Cleaner)
+[![Readme Score](http://readme-score-api.herokuapp.com/score.svg?url=https://github.com/fjtrujy/ios-cleaner)](http://clayallsopp.github.io/readme-score?url=https://github.com/fjtrujy/ios-cleaner)
 
 ## Example
 
